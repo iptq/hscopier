@@ -13,13 +13,6 @@
 static void activate(GApplication *app, gpointer user_data) {}
 
 int main(int argc, char **argv) {
-    // std::ifstream f(argv[1]);
-    // std::string contents((std::istreambuf_iterator<char>(f)), std::istreambuf_iterator<char>());
-    // f.close();
-
-    // // std::cout << contents << std::endl;
-    // osu::BeatmapSet *s = osu::readString(contents);
-
     GtkWidget *window;
     GtkBuilder *builder;
 
