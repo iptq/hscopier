@@ -3,8 +3,7 @@
 #include <streambuf>
 #include <string>
 
-#include "osu/beatmap/set.hpp"
-#include "osu/osz/beatmapparser.hpp"
+#include "osu.hpp"
 
 int main(int argc, char **argv) {
     std::ifstream f(argv[1]);
